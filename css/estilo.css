@@ -1,0 +1,33 @@
+.jumbotron {
+  min-height: 850px;
+  background-size: cover;
+  background-image:
+   linear-gradient(
+     rgba(0, 0, 0, 0.7),
+     rgba(0, 0, 0, 0.7)
+   ),
+   url(../img/bg3.jpg);
+
+}
+
+.btn-ini {
+  font-size: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 270px;
+}
+
+#myfooter {
+  margin-top: -32px;
+  height: 61px;
+  font-size: 18px;
+}
+
+#myfooter p {
+  padding-top: 18px;
+}
+
+@media (max-width: 576px) {
+    nav > .container {
+        width: 100%;
+    }
+}
