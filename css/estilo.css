@@ -1,3 +1,15 @@
+body {
+  background-color: #b3b3cc;
+}
+
+.navbar {
+  min-height: 60px;
+}
+
+.dropdown-menu > a:hover {
+    background-color: #909090;
+}
+
 .jumbotron {
   min-height: 850px;
   background-size: cover;
@@ -7,7 +19,6 @@
      rgba(0, 0, 0, 0.7)
    ),
    url(../img/bg3.jpg);
-
 }
 
 .btn-ini {
@@ -26,8 +37,72 @@
   padding-top: 18px;
 }
 
+.form-container {
+  background-color: #d3dcea;
+  border: 5px solid grey;
+  border-style: double;
+}
+
+#myForm {
+  margin: 20px;
+}
+
+@media (max-width: 992px) {
+    .navbar-brand {
+    display: none;
+ }
+
+ .btn-ini {
+   font-size: 24px;
+   width: 270px;
+ }
+
+ .display-3 {
+   font-size: 62px;
+ }
+
+ h2 {
+   font-size: 30px;
+ }
+
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    display: none;
+ }
+
+ .btn-ini {
+   font-size: 20px;
+   width: 245px;
+ }
+
+ .display-3 {
+   font-size: 52px;
+ }
+
+ h2 {
+   font-size: 28px;
+ }
+
+}
+
 @media (max-width: 576px) {
     nav > .container {
         width: 100%;
     }
+
+    .btn-ini {
+      font-size: 18px;
+      width: 230px;
+    }
+
+    .display-3 {
+      font-size: 42px;
+    }
+
+    h2 {
+      font-size: 26px;
+    }
+
 }
