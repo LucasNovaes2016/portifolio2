@@ -47,62 +47,19 @@ body {
   margin: 20px;
 }
 
-@media (max-width: 992px) {
-    .navbar-brand {
-    display: none;
- }
-
- .btn-ini {
-   font-size: 24px;
-   width: 270px;
- }
-
- .display-3 {
-   font-size: 62px;
- }
-
- h2 {
-   font-size: 30px;
- }
-
+.card {
+  background-color: #dad6db;
+  border: 5px solid gray;
 }
 
-@media (max-width: 768px) {
-  .navbar-brand {
-    display: none;
- }
-
- .btn-ini {
-   font-size: 20px;
-   width: 245px;
- }
-
- .display-3 {
-   font-size: 52px;
- }
-
- h2 {
-   font-size: 28px;
- }
-
+@media (max-width: 991px) {
+    .navbar-brand {
+      display: none;
+    }
 }
 
 @media (max-width: 576px) {
     nav > .container {
         width: 100%;
     }
-
-    .btn-ini {
-      font-size: 18px;
-      width: 230px;
-    }
-
-    .display-3 {
-      font-size: 42px;
-    }
-
-    h2 {
-      font-size: 26px;
-    }
-
 }
