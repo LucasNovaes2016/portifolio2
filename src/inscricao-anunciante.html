@@ -5,7 +5,6 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="../css/estilo.css">
    </head>
@@ -22,9 +21,6 @@
                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#">Como Funciona</a>
-                  </li>
-                  <li class="nav-item">
                      <a class="nav-link" href="#">Contato</a>
                   </li>
                </ul>
@@ -35,7 +31,7 @@
                      </a>
                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="meus-projetos-usuario-anunciante.html">Anunciante</a>
-                        <a class="dropdown-item" href="#">Desenvolvedor</a>
+                        <a class="dropdown-item" href="meus-projetos-usuario-desenvolvedor.html">Desenvolvedor</a>
                         <a class="dropdown-item" href="index.html">Home</a>
                      </div>
                   </li>
@@ -53,35 +49,35 @@
                <form id="myForm">
                   <div class="form-group">
                      <label for="name"><b>Nome: </b></label>
-                     <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp" placeholder="Seu Nome">
+                     <input type="text" name="name" class="form-control" aria-describedby="emailHelp" placeholder="Seu Nome">
                   </div>
                   <div class="form-group">
                      <label for="email"> <b> Email: </b> </label>
-                     <input type="email" class="form-control" id="inputEmail" placeholder="Seu Email">
+                     <input type="email" name="email" class="form-control" placeholder="Seu Email">
                   </div>
                   <div class="form-group">
                      <label for="password"> <b> Senha: </b> </label>
-                     <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha">
+                     <input type="password" name="password" class="form-control" placeholder="Digite sua senha">
                   </div>
                   <div class="form-group">
                      <label for="password"> <b> Digite sua senha novamente: </b> </label>
-                     <input type="password" class="form-control" id="inputPasswordConfirm" placeholder="Confirme sua senha">
+                     <input type="password" name="confirmPassword" class="form-control" placeholder="Confirme sua senha">
                   </div>
                   <div class="form-group">
                      <label for="birthday"> <b> Data de nascimento: </b> </label>
-                     <input type="date" class="form-control" id="inputBirthday">
+                     <input type="date" name="birthday" class="form-control">
                   </div>
                   <div class="form-group">
                      <label for ="sex"> <b> Sexo: </b> </label>
                      <br>
                      <div class="form-check form-check-inline">
                         <label class="form-check-label">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Masculino
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" value="option1"> Masculino
                         </label>
                      </div>
                      <div class="form-check form-check-inline">
                         <label class="form-check-label">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Feminino
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions"value="option2"> Feminino
                         </label>
                      </div>
                   </div>
@@ -101,16 +97,14 @@
                         <label class="form-check-label">
                         <input class="form-check-input" type="checkbox" name="Jogos" value="option4"> Jogos
                         </label>
-                      </label>
                       <label class="form-check-label">
                       <input class="form-check-input" type="checkbox" name="Outro" value="option5"> Outro
                       </label>
                      </div>
                   </div>
                   <div class="text-right">
-                      <button type="submit" class="btn btn-success ">Criar Conta</button>
+                      <button type="submit" class="btn btn-success"> Criar Conta </button>
                   </div>
-
                </form>
              </div>
             </div>

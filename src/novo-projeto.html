@@ -22,7 +22,7 @@
                      <a class="nav-link" href="meus-projetos-usuario-anunciante.html">Meus Anuncios <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#">Procurar Desenvolvedores</a>
+                     <a class="nav-link" href="procurar-desenvolvedores.html">Procurar Desenvolvedores</a>
                   </li>
                </ul>
                <ul class="navbar-nav">
@@ -42,7 +42,7 @@
                      </a>
                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="meus-projetos-usuario-anunciante.html">Anunciante</a>
-                        <a class="dropdown-item" href="#">Desenvolvedor</a>
+                        <a class="dropdown-item" href="meus-projetos-usuario-desenvolvedor.html">Desenvolvedor</a>
                         <a class="dropdown-item" href="index.html">Home</a>
                      </div>
                   </li>
@@ -60,15 +60,15 @@
                   <form id="myForm">
                      <div class="form-group">
                         <label for="name"><b>Titulo do Projeto: </b></label>
-                        <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp" placeholder="Seu Nome">
+                        <input type="text" name="name" class="form-control" aria-describedby="emailHelp" placeholder="Seu Nome">
                      </div>
                      <div class="form-group">
                         <label for="descricao"> <b> Descrição: </b> </label>
-                        <textarea class="form-control" id="inputDescription" rows="5" placeholder="Digite uma descrição do projeto"></textarea>
+                        <textarea type="text" name="description" class="form-control"  rows="5" placeholder="Digite uma descrição do projeto"></textarea>
                      </div>
                      <div class="form-group">
                         <label for="birthday"> <b> Prazo para Entrega: </b> </label>
-                        <input type="date" class="form-control" id="inputBirthday">
+                        <input type="date" name="deadline" class="form-control" >
                      </div>
                      <div class="form-group">
                         <label for ="competencias"> <b> Categoria(s) do projeto: </b> </label>
@@ -96,7 +96,7 @@
                         <label for="valor"> <b> Orçamento: </b> </label>
                         <div class="input-group">
                            <span class="input-group-addon">R$</span>
-                           <input type="number" class="form-control" id="inputBudget" placeholder="00,00">
+                           <input type="number" name="budget" class="form-control" placeholder="00,00">
                         </div>
                      </div>
                      <div class="text-right">
