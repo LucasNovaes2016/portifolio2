@@ -56,7 +56,21 @@ body {
   color: #CCAB00;
 }
 
+.list-header {
+  background-color: #52527a;
+  color: white;
+  font-size: 18px;
+}
 
+.bordered {
+  border: 3px solid #867979;
+}
+
+
+
+.list-item:hover {
+  background-color: #909090;
+}
 
 @media (max-width: 991px) {
     .navbar-brand {
