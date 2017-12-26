@@ -11,7 +11,7 @@ body {
 }
 
 .jumbotron {
-  min-height: 850px;
+  min-height: 853px;
   background-size: cover;
   background-image:
    linear-gradient(
@@ -70,6 +70,14 @@ body {
 
 .list-item:hover {
   background-color: #909090;
+}
+
+.profile {
+  background-color: #cfbad8;
+}
+
+.profile-icon {
+  font-size: 200px;
 }
 
 @media (max-width: 991px) {
